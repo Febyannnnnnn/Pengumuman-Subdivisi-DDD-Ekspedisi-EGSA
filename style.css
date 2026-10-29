@@ -1,4 +1,11 @@
 /* EKSVORIA 19 — paper-cut visual system */
+@font-face {
+  font-family: "Supply Center";
+  src: url("Supply-Center.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
 :root {
   --teal: #78c4ae;
   --blue: #125494;
@@ -15,7 +22,7 @@ body {
   margin: 0;
   min-height: 100vh;
   color: var(--ink);
-  font-family: "Nunito", sans-serif;
+  font-family: "Supply Center", sans-serif;
   background:
     radial-gradient(ellipse at 15% 12%, rgba(255,255,255,.32), transparent 26%),
     linear-gradient(135deg, #78c4ae 0%, #55a8b7 48%, #125494 100%);
@@ -87,7 +94,7 @@ input {
 input:focus { border-color: var(--blue); box-shadow: 0 0 0 4px rgba(18,84,148,.13); }
 button {
   width: 100%; margin-top: 13px; padding: 14px 18px; border: 0; border-radius: 4px;
-  color: var(--cream); background: var(--maroon); font: 900 .95rem "Nunito", sans-serif;
+  color: var(--cream); background: var(--maroon); font: 900 .95rem "Satoshi", sans-serif;
   letter-spacing: .06em; cursor: pointer; box-shadow: 0 4px 0 #4f0015;
   transition: transform .18s, box-shadow .18s, background .18s;
 }
