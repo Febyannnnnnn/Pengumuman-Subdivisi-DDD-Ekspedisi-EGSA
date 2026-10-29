@@ -31,7 +31,7 @@ body {
   position: relative; isolation: isolate; min-height: 270px; overflow: hidden;
   display: grid; place-items: center; text-align: center;
   padding: 38px 24px 64px; border: 5px solid var(--cream);
-  border-radius: 5px; background: var(--teal);
+  border-radius: 5px; background: transparent;
   box-shadow: 0 8px 0 rgba(58,27,24,.22), 0 18px 35px rgba(13,51,72,.18);
 }
 .hero-art {
