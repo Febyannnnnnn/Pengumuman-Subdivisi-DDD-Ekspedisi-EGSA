@@ -137,7 +137,7 @@ h1 span {
 .asset-strip {
   position: absolute;
   right: 14px;
-  bottom: 40px;
+  bottom: 80px;
   width: 120px;
   height: 95px;
   object-fit: cover;
@@ -389,7 +389,7 @@ button:active {
  .asset-strip {
   position: absolute;
   right: 14px;
-  bottom: 40px;
+  bottom: 80px;
   width: 120px;
   height: 95px;
   object-fit: cover;
