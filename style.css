@@ -136,16 +136,18 @@ h1 span {
 
 .asset-strip {
   position: absolute;
-  bottom: -9px;
-  right: 12px;
-  width: 155px;
-  height: 65px;
+  right: 14px;
+  bottom: 10px;
+  width: 120px;
+  height: 95px;
   object-fit: cover;
   object-position: center;
   border: 2px solid var(--gold);
-  border-radius: 8px;
-  box-shadow: 3px 4px 0 rgba(58,27,24,.25);
-  transform: rotate(3deg);
+  border-radius: 7px;
+  box-shadow: 3px 4px 0 rgba(58, 27, 24, 0.25);
+  transform: rotate(2deg);
+  z-index: 2;
+}
 }
 
 .announcement-card {
@@ -384,19 +386,20 @@ button:active {
     letter-spacing: .08em;
   }
 
-  .asset-strip {
+ .asset-strip {
   position: absolute;
-  bottom: -9px;
-  right: 12px;
-  width: 155px;
-  height: 65px;
+  right: 14px;
+  bottom: 10px;
+  width: 120px;
+  height: 95px;
   object-fit: cover;
   object-position: center;
   border: 2px solid var(--gold);
-  border-radius: 8px;
-  box-shadow: 3px 4px 0 rgba(58,27,24,.25);
-  transform: rotate(3deg);
-  }
+  border-radius: 7px;
+  box-shadow: 3px 4px 0 rgba(58, 27, 24, 0.25);
+  transform: rotate(2deg);
+  z-index: 2;
+}
 
   .announcement-card {
     margin-top: 24px;
