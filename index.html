@@ -2,36 +2,46 @@
 <html lang="id">
 <head>
   <meta charset="UTF-8">
-  <title>DDD Ekspedisi EGSA 2027</title>
-
-  <!-- CSS -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#78c4ae">
+  <title>DDD Ekspedisi EGSA 2027 — Pengumuman Subdivisi DDD</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800;900&family=Rye&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
-
-  <!-- FONT (ESTETIK) -->
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
 </head>
-
 <body>
+  <div class="paper-grain" aria-hidden="true"></div>
+  <main class="page">
+    <header class="hero">
+      <div class="hero-art" aria-hidden="true"></div>
+      <div class="hero-copy">
+        <p class="eyebrow">PENGUMUMAN RESMI · SUBDIVISI DDD</p>
+        <h1>DDD <span>2027</span></h1>
+        <p class="subtitle">Satu karya, satu cerita, satu ekspedisi.</p>
+      </div>
+      <img class="asset-strip" src="assets/original-asset-set.png" alt="" aria-hidden="true">
+    </header>
 
-  <div class="container">
-    <h1>DDD Ekspedisi EGSA 2027</h1>
-    <p class="subtitle">Pengumuman Subdivisi DDD</p>
+    <section class="announcement-card" aria-label="Cek pengumuman penempatan">
+      <div class="card-topline"><span>HASIL PENEMPATAN</span><span class="tiny-star">✳</span></div>
+      <p class="intro">Masukkan nama depan untuk melihat hasil penempatanmu di Subdivisi DDD Ekspedisi EGSA 2027.</p>
+      <form id="formNama">
+        <label for="nama">Nama depan</label>
+        <input id="nama" name="nama" type="text" placeholder="Contoh: Annisa" autocomplete="given-name" required>
+        <button type="submit">UNGKAP HASIL <span aria-hidden="true">✦</span></button>
+      </form>
+      <div id="hasil" class="result" aria-live="polite"></div>
+      <p class="card-foot">DIBUAT DENGAN SEMANGAT KEBERSAMAAN</p>
+    </section>
 
-    <div class="card">
-      <input type="text" id="nama" placeholder="Masukkan nama">
-      <button onclick="cekHasil()">Lihat Hasil</button>
-
-      <div id="hasil"></div>
-    </div>
-  </div>
-
-  <!-- SCRIPT UTAMA -->
+    <footer class="footer">
+      <span>DDD EKSPEDISI EGSA 2027</span>
+      <span class="footer-flower" aria-hidden="true">✿</span>
+      <span>SUBDIVISI DDD</span>
+    </footer>
+  </main>
+  <div id="confettiLayer" class="confetti-layer" aria-hidden="true"></div>
   <script src="script.js"></script>
-
-  <!-- CONFETTI -->
-  <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
-
-  <!-- SOUND -->
-<audio id="ding" src="https://cdn.pixabay.com/download/audio/2022/03/15/audio_c8c8a73467.mp3?filename=success-1-6297.mp3"></audio>
 </body>
 </html>
