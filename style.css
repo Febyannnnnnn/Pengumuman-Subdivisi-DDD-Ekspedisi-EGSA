@@ -38,7 +38,7 @@ body {
   position: relative; isolation: isolate; min-height: 270px; overflow: hidden;
   display: grid; place-items: center; text-align: center;
   padding: 38px 24px 64px; border: 5px solid var(--cream);
-  border-radius: 5px; background: transparent;
+  border-radius: 5px; background: var(--teal);
   box-shadow: 0 8px 0 rgba(58,27,24,.22), 0 18px 35px rgba(13,51,72,.18);
 }
 .hero-art {
@@ -59,7 +59,7 @@ body {
   box-shadow: 3px 3px 0 rgba(58,27,24,.28);
 }
 h1 {
-  margin: 0; color: var(--maroon); font-family: "Rye", Georgia, serif;
+  margin: 0; color: var(--maroon); font-family: "Supply Center", sans-serif;
   font-size: clamp(2.4rem, 8vw, 5rem); line-height: 1.08; letter-spacing: .025em;
   -webkit-text-stroke: 1px var(--cream);
   text-shadow: 3px 3px 0 var(--cream), 6px 7px 0 rgba(58,27,24,.42);
