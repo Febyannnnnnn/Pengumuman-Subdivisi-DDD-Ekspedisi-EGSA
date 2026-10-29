@@ -385,9 +385,17 @@ button:active {
   }
 
   .asset-strip {
-    width: 112px;
-    height: 48px;
-    right: 6px;
+  position: absolute;
+  bottom: 10px;
+  right: 15px;
+  width: 280px;
+  height: auto;
+  max-height: 180px;
+  object-fit: contain;
+  border: 2px solid #FBC24E;
+  border-radius: 8px;
+  transform: rotate(3deg);
+  z-index: 5;
   }
 
   .announcement-card {
